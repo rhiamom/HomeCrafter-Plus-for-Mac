@@ -1,0 +1,9 @@
+# Large / third-party inputs (see README)
+vendor/
+renderer/*
+!renderer/dxvk.conf
+prefix/
+dist/
+game-backup-*/
+build/entitlements.plist
+.DS_Store
