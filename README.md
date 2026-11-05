@@ -2,7 +2,8 @@
 
 *The Sims 2 HomeCrafter Plus* (EA/Maxis's wall, floor and terrain-paint tool) as a
 normal Mac app. It wraps **oduska's Portable TS2 HomeCrafter Plus**
-([MTS 2322998](https://modthesims.info/d/2322998), used with oduska's permission) in a
+([on Mod The Sims](https://modthesims.info/d/699956/the-sims-2-homecrafter-plus-portable-version.html),
+used with oduska's permission) in a
 bundled copy of Wine. No Sims 2 install inside Wine, no Wine setup by the user.
 
 - Works with the Aspyr **Sims 2 Super Collection**. Other Sims 2 folders can be
@@ -55,7 +56,8 @@ character package (it trims the trailing zero padding the Mac game writes).
 
 Inputs not in git:
 
-- `vendor/Portable_TS2HomeCrafterPlus/`: oduska's portable build, unpacked.
+- `vendor/Portable_TS2HomeCrafterPlus/`: oduska's portable build, unpacked
+  ([download from Mod The Sims](https://modthesims.info/d/699956/the-sims-2-homecrafter-plus-portable-version.html)).
 - `renderer/d9vk-macOS-async-v1.10.3-20250511/` and `renderer/libMoltenVK.dylib`
   (MoltenVK from Sikarugir Template-1.0.11), optionally
   `renderer/Portable_TS2HomeCrafterPlus.dxvk-cache` as a starter graphics cache.
@@ -75,4 +77,5 @@ build/release.sh                   # sign, notarize, staple, make the .dmg
 ## Credits
 
 The Sims 2 HomeCrafter Plus © Electronic Arts / Maxis. Portable build by
-**oduska** (<https://oduska.com>). Mac wrapper by **Rhiamom**.
+**oduska** ([Mod The Sims](https://modthesims.info/d/699956/the-sims-2-homecrafter-plus-portable-version.html),
+<https://oduska.com>). Mac wrapper by **Rhiamom**.
